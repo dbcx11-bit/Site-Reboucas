@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contato | Rebouças Telecom</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins', sans-serif;
+}
+
+:root {
+ --azul:#0b3d91;
+ --verde:#25d366;
+}
+
+/* MENU */
+
+
+
+nav a {
+ color:white;
+ text-decoration:none;
+ margin-left:20px;
+}
+
+/* CONTEÚDO */
+
+.container {
+ padding:60px 20px;
+ max-width:1100px;
+ margin:auto;
+}
+
+h1 {
+ text-align:center;
+ margin-bottom:40px;
+ color:var(--azul);
+}
+
+/* GRID */
+
+.grid {
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:40px;
+}
+
+/* FORM */
+
+input, textarea {
+
+ width:100%;
+ padding:12px;
+ margin-bottom:15px;
+
+ border-radius:8px;
+ border:1px solid #ccc;
+
+}
+
+button {
+
+ background:var(--verde);
+ color:white;
+
+ padding:14px;
+
+ border:none;
+ border-radius:30px;
+
+ font-weight:bold;
+
+ cursor:pointer;
+
+ width:100%;
+
+}
+
+/* INFO */
+
+.info p {
+ margin-bottom:12px;
+}
+
+/* MAPA */
+
+iframe {
+ width:100%;
+ height:250px;
+ border:none;
+ border-radius:10px;
+}
+
+/* WHATSAPP */
+
+.whatsapp-float {
+
+ position:fixed;
+ bottom:20px;
+ right:20px;
+
+ background:var(--verde);
+ color:white;
+
+ padding:14px 18px;
+
+ border-radius:50px;
+
+ text-decoration:none;
+
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+.grid {
+ grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Rebouças Telecom
+<span>Desde 1985</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="produtos.html">Produtos</a>
+<a href="pabx.html">PABX</a>
+<a href="rede.html">Rede</a>
+<a href="cftv.html">CFTV</a>
+<a href="alarmes.html">Alarmes</a>
+<a href="controle-acesso.html">Controle</a>
+<a href="porteiro.html">Porteiros</a>
+<a href="projetos.html">Projetos</a>
+<a href="sobre.html">Sobre</a>
+<a href="loja.html">Loja</a>
+<a href="contato.html">Contato</a>
+</nav>
+
+</header>
+
+
+<div class="container">
+
+<h1>Entre em Contato</h1>
+
+<div class="grid">
+
+<!-- FORMULÁRIO -->
+
+<div>
+
+<form action="enviar.php" method="POST">
+
+<input type="text"
+name="nome"
+placeholder="Seu nome"
+required>
+
+<input type="email"
+name="email"
+placeholder="Seu email"
+required>
+
+<input type="text"
+name="telefone"
+placeholder="Telefone">
+
+<textarea name="mensagem"
+rows="5"
+placeholder="Digite sua mensagem"
+required></textarea>
+
+<button type="submit">
+
+Enviar mensagem
+
+</button>
+
+</form>
+
+</div>
+
+<!-- INFORMAÇÕES -->
+
+<div class="info">
+
+<h2>Contato</h2>
+
+<p>
+
+📞 Telefone: 11 4232-7699
+
+</p>
+
+<p>
+
+📱 WhatsApp: 11 4232-7699
+
+</p>
+
+<p>
+
+@ Email: comercial@reboucastelecom.com.br
+
+</p>
+
+
+<p>
+
+📍 Endereço: Rua Urupema 222, São Caetano do Sul.
+
+</p>
+
+
+</div>
+
+</div>
+
+</div>
+
+<!-- WHATSAPP -->
+
+<a href="https://wa.me/55119XXXXXXXX"
+class="whatsapp-float">
+
+WhatsApp
+
+</a>
+
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<style>
+
+/* RESET */
+
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins', sans-serif;
+}
+
+/* CORES */
+
+:root {
+
+ --azul:#0b3d91;
+ --cinza:#333;
+ --verde:#25d366;
+
+}
+
+/* MENU */
+
+
+
+.logo {
+
+ font-size:22px;
+ font-weight:600;
+
+}
+
+nav a {
+
+ color:white;
+ text-decoration:none;
+ margin-left:20px;
+ font-weight:500;
+
+}
+
+/* HERO */
+
+.hero {
+
+ background:linear-gradient(rgba(0,0,0,0.6),
+ rgba(0,0,0,0.6)),
+ url("banner.jpg");
+
+ background-size:cover;
+ background-position:center;
+
+ color:white;
+ text-align:center;
+
+ padding:120px 20px;
+
+}
+
+.hero h1 {
+
+ font-size:42px;
+ margin-bottom:15px;
+
+}
+
+.hero p {
+
+ font-size:20px;
+ margin-bottom:25px;
+
+}
+
+.btn {
+
+ padding:14px 26px;
+ border-radius:30px;
+ text-decoration:none;
+ font-weight:600;
+ margin:5px;
+
+ display:inline-block;
+
+}
+
+.btn-whatsapp {
+
+ background:var(--verde);
+ color:white;
+
+}
+
+.btn-orcamento {
+
+ background:white;
+ color:var(--azul);
+
+}
+
+/* SERVIÇOS */
+
+.section {
+
+ padding:70px 20px;
+ text-align:center;
+
+}
+
+.section h2 {
+
+ margin-bottom:40px;
+ font-size:32px;
+
+}
+
+.grid {
+
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+ gap:30px;
+
+}
+
+.card {
+
+ background:white;
+ padding:30px;
+ border-radius:12px;
+ box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.card h3 {
+
+ margin-bottom:15px;
+ color:var(--azul);
+
+}
+
+/* DIFERENCIAIS */
+
+.bg-cinza {
+
+ background:#f5f5f5;
+
+}
+
+/* PARCEIROS */
+
+.parceiros img {
+
+ max-width:200px;
+
+}
+
+/* CONTATO */
+
+.contato {
+
+ background:var(--azul);
+ color:white;
+
+}
+
+footer {
+
+ background:#111;
+ color:white;
+ text-align:center;
+ padding:20px;
+
+}
+
+/* WHATSAPP FIXO */
+
+.whatsapp-float {
+
+ position:fixed;
+ bottom:20px;
+ right:20px;
+
+ background:var(--verde);
+ color:white;
+
+ padding:14px 18px;
+
+ border-radius:50px;
+ text-decoration:none;
+ font-weight:bold;
+
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+.hero h1{
+
+ font-size:30px;
+
+}
+
+}
+
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rebouças Telecom | Segurança Eletrônica e Telecomunicações</title>
+
+<meta name="description"
+content="Instalação e manutenção de CFTV, PABX, Alarmes, Biometria e Porteiros em São Paulo e ABCDM. Desde 1985.">
+
+<link rel="icon" type="image/png" href="Imagens/favicon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Rebouças Telecom
+<span>Desde 1985</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="produtos.html">Produtos</a>
+<a href="pabx.html">PABX</a>
+<a href="rede.html">Rede</a>
+<a href="cftv.html">CFTV</a>
+<a href="alarmes.html">Alarmes</a>
+<a href="controle-acesso.html">Controle</a>
+<a href="porteiro.html">Porteiros</a>
+<a href="projetos.html">Projetos</a>
+<a href="sobre.html">Sobre</a>
+<a href="loja.html">Loja</a>
+<a href="contato.html">Contato</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>
+
+Instalação e Manutenção de CFTV, PABX e Alarmes
+
+</h1>
+
+<p>
+
+Atendimento em São Paulo, Grande São Paulo e ABCDM desde 1985.
+
+</p>
+
+<a href="https://wa.me/551142327699"
+class="btn btn-whatsapp">
+
+Falar no WhatsApp
+
+</a>
+
+<a href="contato.html"
+class="btn btn-orcamento">
+
+Solicitar Orçamento
+
+</a>
+
+</section>
+
+<section class="section">
+
+<h2>Nossos Serviços</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="Imagens/pabx.jpg">
+
+<h3>PABX</h3>
+
+<p>Centrais telefônicas analógicas, digitais e IP.</p>
+
+</div>
+
+<div class="card">
+
+<img src="Imagens/cftv.jpg">
+
+<h3>CFTV</h3>
+
+<p>Monitoramento por câmeras com acesso remoto.</p>
+
+</div>
+
+<div class="card">
+
+<img src="Imagens/rede.jpg">
+
+<h3>Rede</h3>
+
+<p>Redes cabeadas e WI-FI.</p>
+
+</div>
+
+<div class="card">
+
+<img src="Imagens/alarme.jpg">
+
+<h3>Alarmes</h3>
+
+<p>Sistemas inteligentes para proteção.</p>
+
+</div>
+
+<div class="card">
+
+<img src="Imagens/controle.jpg">
+
+<h3>Controle de Acesso</h3>
+
+<p>Biometria e fechaduras eletrônicas.</p>
+
+</div>
+
+<div class="card">
+
+<img src="Imagens/porteiro.jpg">
+
+<h3>Porteiros</h3>
+
+<p>Porteiro eletrônico e vídeo porteiro.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section bg-cinza">
+
+<h2>Empresa com Experiência</h2>
+
+<p>
+
+Empresa fundada em 1985, oferecendo soluções completas para residências, comércios e indústrias.
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Rebouças Telecom  
+Desde 1985  
+São Paulo | Grande São Paulo | ABCDM  
+
+</footer>
+
+<a href="https://wa.me/551142327699"
+class="whatsapp-float">
+
+WhatsApp
+
+</a>
+
+</body>
+
+</html>
